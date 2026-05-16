@@ -1,0 +1,22 @@
+image01.jpeg <- Services Offered:           Electrical and Mechanical Engineering Services (Sub-Consultant) | Year:2023 – 2025 | Location:               Greater Maputo Region with a population of 4 million (Maputo & 
+image02.jpeg <- Services Offered:           Electrical and Mechanical Engineering Services (Sub-Consultant) | Year:2023 – 2025 | Location:               Greater Maputo Region with a population of 4 million (Maputo & 
+image03.jpeg <- Services Offered:           Structural/Civil, Electrical and Mechanical Engineering Services | (Sub-Consultant) | Year:2021 –Date | Location:               Oshakati, Oshana Region, Namibia
+image04.jpeg <- Services Offered:           Structural/Civil, Electrical and Mechanical Engineering Services | (Sub-Consultant) | Year:2021 –Date | Location:               Oshakati, Oshana Region, Namibia
+image05.png <- Name of Assignment:    Construction of the Engineering, Workshop and Functional Areas at Husab Mine for Beifang Mining Services Namibia | Services Offered:           Electrical and Mechanical Engineer
+image06.png <- Name of Assignment:    Construction of the Engineering, Workshop and Functional Areas at Husab Mine for Beifang Mining Services Namibia | Services Offered:           Electrical and Mechanical Engineer
+image07.png <- Development Institute (MADI) | Services Offered:           Electrical Engineering Services | Year:2018 –2020 | Location:               Mashare, Namibia
+image08.jpeg <- Development Institute (MADI) | Services Offered:           Electrical Engineering Services | Year:2018 –2020 | Location:               Mashare, Namibia
+image09.png <- Development Institute (MADI) | Services Offered:           Electrical Engineering Services | Year:2018 –2020 | Location:               Mashare, Namibia
+image10.jpeg <- Name of Assignment:    Maerua Mall Redevelopment & Upgrade Phase 1 | Services Offered:           Electrical and Mechanical Engineering Services (Sub-Consultant) | Year:2023-2025 | Location:           
+image11.jpeg <- Name of Assignment:    Maerua Mall Redevelopment & Upgrade Phase 1 | Services Offered:           Electrical and Mechanical Engineering Services (Sub-Consultant) | Year:2023-2025 | Location:           
+image12.png <- Name of Assignment:    Katutura Medical & Wellness Centre | Services Offered:           Structural/Civil, Electrical and Mechanical Engineering Services | Year:2017-2020 | Location:               Katu
+image13.png <- Name of Assignment:    Upgrade of Ondangwa Private Hospital | Services Offered:           Electrical and Mechanical Engineering Services | Year:2019-2020 | Location:               Ondangwa, Namibia
+image14.png <- Name of Assignment:    Academia Medical Centre | Services Offered:           Electrical and Mechanical Engineering Services | Year:2017-2020 | Location:               Academia, Windhoek, Namibia
+image15.png <- Name of Assignment:    Tate Village Student Accommodation | Services Offered:           Electrical and Mechanical Engineering Services | Year:2017-2018 | Location:               Windhoek West, Windhoe
+image16.png <- Name of Assignment:       Nored Main Store | Services Offered:              Electrical and Mechanical Engineering Services | Year:                     2017-2021 | Location:                   Ondangwa,
+image17.png <- Name of Assignment:       Nored Main Store | Services Offered:              Electrical and Mechanical Engineering Services | Year:                     2017-2021 | Location:                   Ondangwa,
+image18.png <- Name of Assignment:    Nored Head Office Expansion | Services Offered:           Electrical and Mechanical Engineering Services | Year:2019-2022 | Location:               Ondangwa, Namibia
+image19.png <- Name of Assignment:    Nored Katima Regional Office | Services Offered:           Electrical and Mechanical Engineering Services | Year:2020-2022 | Location:               Katima, Namibia
+image20.png <- Name of Assignment:    Modern Grootfontein Open Market Facility for Grootfontein Municipality | Services Offered:           Design of Electrical and Mechanical Engineering Services | Year:2021-2023 | 
+image21.png <- Mashare – Kavango East Region | Katwitwi- Kavango West Region | Okashana – Oshikoto Region | Omahenene - Omusati Region
+image22.png <- Mashare – Kavango East Region | Katwitwi- Kavango West Region | Okashana – Oshikoto Region | Omahenene - Omusati Region

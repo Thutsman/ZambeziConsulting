@@ -1,0 +1,60 @@
+=== Draft Website Information ===
+
+preparation-of-phase-ii-of-the-greater-maputo
+  -> images/portfolio/preparation-of-phase-ii-of-the-greater-maputo.jpeg
+  Name of Assignment:    Consultancy Services for Preparation of Phase II of the Greater Maputo...
+
+oshakati-water-purification-plant-extension
+  -> images/portfolio/oshakati-water-purification-plant-extension.jpeg
+  Name of Assignment:    Consultancy Services for Oshakati Water Purification Plant Extension...
+
+construction-of-the-engineering-workshop-and-functional-area
+  -> images/portfolio/construction-of-the-engineering-workshop-and-functional-area.png
+  Name of Assignment:    Construction of the Engineering, Workshop and Functional Areas at Husab Mine for Beifang Mining S...
+
+126kwp-grid-tied-solar-photovoltaic-system-at-mashare-agricu
+  -> images/portfolio/126kwp-grid-tied-solar-photovoltaic-system-at-mashare-agricu.png
+  Name of Assignment:    126kWp Grid-Tied Solar Photovoltaic System at Mashare Agricultural...
+
+maerua-mall-redevelopment-upgrade-phase-1
+  -> images/portfolio/maerua-mall-redevelopment-upgrade-phase-1.jpeg
+  Name of Assignment:    Maerua Mall Redevelopment & Upgrade Phase 1...
+
+katutura-medical-wellness-centre
+  -> images/portfolio/katutura-medical-wellness-centre.png
+  Name of Assignment:    Katutura Medical & Wellness Centre...
+
+upgrade-of-ondangwa-private-hospital
+  -> images/portfolio/upgrade-of-ondangwa-private-hospital.png
+  Name of Assignment:    Upgrade of Ondangwa Private Hospital...
+
+academia-medical-centre
+  -> images/portfolio/academia-medical-centre.png
+  Name of Assignment:    Academia Medical Centre...
+
+tate-village-student-accommodation
+  -> images/portfolio/tate-village-student-accommodation.png
+  Name of Assignment:    Tate Village Student Accommodation...
+
+nored-main-store
+  -> images/portfolio/nored-main-store.png
+  Name of Assignment:       Nored Main Store...
+
+nored-head-office-expansion
+  -> images/portfolio/nored-head-office-expansion.png
+  Name of Assignment:    Nored Head Office Expansion...
+
+nored-katima-regional-office
+  -> images/portfolio/nored-katima-regional-office.png
+  Name of Assignment:    Nored Katima Regional Office...
+
+modern-grootfontein-open-market-facility-for-grootfontein-mu
+  -> images/portfolio/modern-grootfontein-open-market-facility-for-grootfontein-mu.png
+  Name of Assignment:    Modern Grootfontein Open Market Facility for Grootfontein Municipality...
+
+the-design-and-construction-supervision-for-the
+  -> images/portfolio/the-design-and-construction-supervision-for-the.png
+  Name of Assignment:    Consultancy Services for the Design and Construction Supervision for the...
+
+
+=== Capability Statement (additional) ===

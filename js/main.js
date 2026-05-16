@@ -2,9 +2,15 @@ const navbar = document.getElementById('navbar');
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 const navLinks = document.querySelectorAll('.nav-links a, .nav-mobile a');
+const hero = document.querySelector('.hero');
 
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 60);
+function updateNavbar() {
+  const navH = navbar.offsetHeight;
+  const heroRect = hero?.getBoundingClientRect();
+  const heroAtTop = heroRect && heroRect.top <= 0 && heroRect.bottom > navH + 48;
+  const scrolled = window.scrollY > 72 || !heroAtTop;
+  navbar.classList.toggle('scrolled', scrolled);
+
   const sections = ['home', 'about', 'services', 'portfolio', 'contact'];
   let current = 'home';
   for (const id of sections) {
@@ -14,7 +20,19 @@ window.addEventListener('scroll', () => {
   navLinks.forEach((a) => {
     a.classList.toggle('active', a.getAttribute('href') === '#' + current);
   });
-});
+}
+
+window.addEventListener('scroll', updateNavbar, { passive: true });
+window.addEventListener('resize', updateNavbar);
+updateNavbar();
+
+if (hero) {
+  const heroObserver = new IntersectionObserver(
+    () => updateNavbar(),
+    { threshold: [0, 0.01, 0.5, 1], rootMargin: `-${navbar.offsetHeight}px 0px 0px 0px` }
+  );
+  heroObserver.observe(hero);
+}
 
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');

@@ -151,7 +151,6 @@ a { text-decoration: none; color: inherit; }
   padding: 0 0 clamp(2.5rem, 5vh, 4rem);
   max-width: 52rem;
 }
-.hero-eyebrow { margin-bottom: var(--space-2); opacity: 0; }
 .hero-title {
   font-size: clamp(2.65rem, 4.8vw + 0.5rem, 4.25rem);
   color: #fff;
@@ -254,13 +253,12 @@ a { text-decoration: none; color: inherit; }
 .hero-stat-n { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.65rem, 2.5vw, 2rem); font-weight: 700; color: var(--gold2); line-height: 1; }
 .hero-stat-l { font-family: 'DM Sans', sans-serif; font-size: 0.65rem; color: rgba(255,255,255,0.5); margin-top: 0.2rem; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; }
 
-.hero.is-mounted .hero-eyebrow { animation: heroReveal 0.85s var(--ease-premium) 0.05s forwards; }
-.hero.is-mounted .hero-title { animation: heroReveal 0.9s var(--ease-premium) 0.12s forwards; }
-.hero.is-mounted .hero-tagline { animation: heroReveal 0.85s var(--ease-premium) 0.22s forwards; }
-.hero.is-mounted .hero-sub { animation: heroReveal 0.85s var(--ease-premium) 0.3s forwards; }
-.hero.is-mounted .hero-actions { animation: heroReveal 0.85s var(--ease-premium) 0.38s forwards; }
-.hero.is-mounted .hero-badges { animation: heroReveal 0.8s var(--ease-premium) 0.46s forwards; }
-.hero.is-mounted .hero-stats { animation: heroReveal 0.9s var(--ease-premium) 0.54s forwards; }
+.hero.is-mounted .hero-title { animation: heroReveal 0.9s var(--ease-premium) 0.05s forwards; }
+.hero.is-mounted .hero-tagline { animation: heroReveal 0.85s var(--ease-premium) 0.14s forwards; }
+.hero.is-mounted .hero-sub { animation: heroReveal 0.85s var(--ease-premium) 0.22s forwards; }
+.hero.is-mounted .hero-actions { animation: heroReveal 0.85s var(--ease-premium) 0.3s forwards; }
+.hero.is-mounted .hero-badges { animation: heroReveal 0.8s var(--ease-premium) 0.38s forwards; }
+.hero.is-mounted .hero-stats { animation: heroReveal 0.9s var(--ease-premium) 0.46s forwards; }
 
 @keyframes heroReveal {
   from { opacity: 0; transform: translateY(16px); }
@@ -273,7 +271,6 @@ a { text-decoration: none; color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   .hero-bg { animation: none; transform: scale(1.04); }
-  .hero.is-mounted .hero-eyebrow,
   .hero.is-mounted .hero-title,
   .hero.is-mounted .hero-tagline,
   .hero.is-mounted .hero-sub,

@@ -13,6 +13,7 @@ ROOT = Path(r"d:\ZambeziConsulting")
 DOCS = [
     ROOT / "Zambezi Consulting Engineers Capability Statement 2025.docx",
     ROOT / "Draft Website Information (1).docx",
+    ROOT / "Zambezi Consulting Engineers WEBSITE (2) (1).docx",
 ]
 OUT_IMG = ROOT / "images" / "extracted"
 OUT_TEXT = ROOT / "scripts" / "extracted_text"

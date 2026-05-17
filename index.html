@@ -46,38 +46,38 @@
 </nav>
 
 <section id="home" class="hero">
+  <div class="hero-media" aria-hidden="true">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+  </div>
   <div class="hero-geo hero-geo-1"></div>
   <div class="hero-geo hero-geo-2"></div>
   <div class="hero-geo hero-geo-3"></div>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-badges">
-        <div class="hero-badge">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          ACEN Registered
-        </div>
-        <div class="hero-badge">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          GBCSA Member
-        </div>
-        <div class="hero-badge">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          Est. 2016 · Namibia
-        </div>
-      </div>
-      <p class="eyebrow gold" style="margin-bottom:0.7rem">Multi-Disciplinary Engineering &amp; Development Consulting</p>
-      <h1>Where Engineering<br><em>Excellence Flows</em><br>Across Africa</h1>
-      <p class="hero-sub">Registered with ACEN and GBCSA, Zambezi Consulting Engineers (Pty) Ltd, formed in 2016 in Namibia, provides multi-disciplinary development engineering and consulting services, as well as project management to the public and private infrastructure sectors in developing countries. Our expertise covers Civil, Structures, Water &amp; Sanitation, Transportation, Urban Development, Mechanical and Electrical Engineering, Mining, and Renewable Energy — with offices in Windhoek, Katima Mulilo, Harare, and Bulawayo.</p>
+      <p class="hero-eyebrow eyebrow gold">Multi-Disciplinary Engineering &amp; Development Consulting</p>
+      <h1 class="hero-title">
+        <span class="hero-title-line">Where Engineering</span>
+        <span class="hero-title-line hero-title-line--accent"><em>Excellence Flows</em></span>
+        <span class="hero-title-line hero-title-line--tail">Across Africa</span>
+      </h1>
+      <p class="hero-tagline">Electrical &amp; Mechanical Engineering Solutions Across Southern Africa</p>
+      <p class="hero-sub">Delivering reliable engineering solutions for industry and infrastructure — registered with the Engineering Council of Zimbabwe, ZIE and ZACE, with offices in Harare and Bulawayo.</p>
       <div class="hero-actions">
-        <button class="btn btn-gold" type="button" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+        <button class="btn btn-gold btn-hero-primary" type="button" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
           Our Services
         </button>
-        <button class="btn btn-outline" type="button" onclick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})">
+        <button class="btn btn-outline btn-hero-secondary" type="button" onclick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           View Portfolio
         </button>
       </div>
+      <ul class="hero-badges" aria-label="Credentials">
+        <li class="hero-badge">Engineering Council of Zimbabwe</li>
+        <li class="hero-badge">ZIE</li>
+        <li class="hero-badge">ZACE</li>
+      </ul>
       <div class="hero-stats">
         <div class="hero-stat"><div class="hero-stat-n">9+</div><div class="hero-stat-l">Years Active</div></div>
         <div class="hero-stat"><div class="hero-stat-n">50+</div><div class="hero-stat-l">Projects</div></div>
@@ -93,22 +93,22 @@
     <div class="trust-inner">
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        Association of Consulting Engineers of Namibia
+        Engineering Council of Zimbabwe
       </div>
       <div class="trust-divider"></div>
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
-        Green Building Council South Africa
+        ZIE
       </div>
       <div class="trust-divider"></div>
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Engineering Council of Namibia
+        ZACE
       </div>
       <div class="trust-divider"></div>
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        Offices in Namibia &amp; Zimbabwe
+        Harare &amp; Bulawayo Offices
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@
           <p class="eyebrow green">Who We Are</p>
           <h2>Trusted Engineering<br><em>Partners Across Africa</em></h2>
           <div class="section-rule left"></div>
-          <p>Zambezi Consulting Engineers (Pty) Ltd, formed in 2016 in Namibia and incorporated in 2022 in Zimbabwe, provides multi-disciplinary development engineering, consulting services, and project management to the public and private infrastructure sectors in emerging markets. With offices in Windhoek, Katima Mulilo, Harare, and Bulawayo — ZCE is strategically located in areas earmarked for development and upgrading of existing infrastructure across the SADC region.</p>
+          <p>Zambezi Consulting Engineers (Pty) Ltd, formed in 2016 in Namibia and incorporated in 2022 in Zimbabwe, provides multi-disciplinary development engineering, consulting services, and project management to the public and private infrastructure sectors in emerging markets. With offices in Harare and Bulawayo — ZCE is strategically located in areas earmarked for development and upgrading of existing infrastructure across the SADC region.</p>
         </div>
 
         <div class="about-pillars">
@@ -222,116 +222,115 @@
   <div class="container">
     <div class="section-head center reveal">
       <p class="eyebrow green">What We Do</p>
-      <h2>Expertise &amp; <em>Services</em></h2>
+      <h2>Our <em>Services</em></h2>
       <div class="section-rule center"></div>
-      <p>Our expertise covers the core sectors of Civil, Structures, Water &amp; Sanitation, Transportation, Urban Development, Mechanical and Electrical Engineering, Mining, and Renewable Energy — delivered through professional engineering and project management services.</p>
+      <p>Leading MEP&amp;F and renewable energy consulting — delivering world-class, multidisciplinary engineering solutions that drive sustainable development across Southern Africa.</p>
     </div>
 
-    <div class="services-list">
+    <div class="services-grid">
 
-      <div class="service-block reveal">
-        <div class="service-img-wrap">
-          <img class="service-img" src="images/service-water.jpg" data-fallback="images/draft/image04.jpeg" alt="Water treatment plant — pumping stations and purification channels" loading="lazy">
-          <div class="service-img-overlay"></div>
-          <div class="service-img-label">
-            <div class="service-icon-badge" style="background:var(--water)">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
-            </div>
-            <span class="service-icon-label">Water Supply &amp; Sanitation</span>
+      <article id="service-electrical" class="service-card reveal" style="--service-accent:var(--gold)">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           </div>
-        </div>
-        <div class="service-content">
-          <p class="eyebrow green">Service Area 01</p>
-          <h3>Water Supply<br><em style="color:var(--water)">&amp; Sanitation</em></h3>
-          <p>We specialize in water and sanitation systems surveys, planning, design, construction supervision and project management services for water and sewage treatment works, upgrade of existing infrastructure, and development engineering.</p>
-          <div class="service-items">
-            <div class="service-item"><div class="service-item-dot"></div>Ground Water Potential Studies &amp; Abstraction</div>
-            <div class="service-item"><div class="service-item-dot"></div>Surface Water Abstraction &amp; Intake</div>
-            <div class="service-item"><div class="service-item-dot"></div>Water Pumping Stations &amp; Treatment Plants</div>
-            <div class="service-item"><div class="service-item-dot"></div>Water Transmission &amp; Cross-Country Pipelines</div>
-            <div class="service-item"><div class="service-item-dot"></div>Water Retaining Structures &amp; Balance Studies</div>
-            <div class="service-item"><div class="service-item-dot"></div>Waste Water Recycling &amp; Reuse Systems</div>
-          </div>
-        </div>
-      </div>
+          <h3>Electrical Services</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>High and Low Voltage Electrical Infrastructure</li>
+          <li>Electrical Distribution Networks up to 132kV</li>
+          <li>Instrumentation, Process Control and Automation</li>
+          <li>Emergency Power Installations</li>
+          <li>Street and Area Lighting Systems</li>
+          <li>Load Studies and Fault Current Determinations</li>
+        </ul>
+      </article>
 
-      <div class="service-block reverse reveal">
-        <div class="service-img-wrap">
-          <img class="service-img" src="images/service-urban.jpg" data-fallback="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&amp;q=80" alt="Sustainable Urban Development" loading="lazy">
-          <div class="service-img-overlay"></div>
-          <div class="service-img-label">
-            <div class="service-icon-badge" style="background:var(--navy)">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-            </div>
-            <span class="service-icon-label">Sustainable Urban Development</span>
+      <article id="service-mechanical" class="service-card reveal" style="--service-accent:var(--navy2)">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
           </div>
-        </div>
-        <div class="service-content">
-          <p class="eyebrow green">Service Area 02</p>
-          <h3>Sustainable Urban<br><em>Development</em></h3>
-          <p>Full-service MEP, fire &amp; life safety engineering — surveys, planning, design and construction supervision for commercial, institutional, government, educational, retail, industrial, healthcare and residential building projects.</p>
-          <div class="service-items">
-            <div class="service-item"><div class="service-item-dot"></div>Structural, Civil &amp; MEP Engineering</div>
-            <div class="service-item"><div class="service-item-dot"></div>Fire &amp; Life Safety (FLS) Systems</div>
-            <div class="service-item"><div class="service-item-dot"></div>Urban Infrastructure &amp; Residential Townships</div>
-            <div class="service-item"><div class="service-item-dot"></div>Bulk Services &amp; Earthworks</div>
-            <div class="service-item"><div class="service-item-dot"></div>Roads &amp; Infrastructure Services</div>
-            <div class="service-item"><div class="service-item-dot"></div>High/Medium Voltage Power Distribution</div>
-          </div>
-        </div>
-      </div>
+          <h3>Mechanical Services</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>Air Conditioning &amp; Ventilation Systems</li>
+          <li>Chilled Water Plants &amp; Thermal Energy Storage</li>
+          <li>Variable Refrigerant Flow (VRF) Systems</li>
+          <li>Vertical Transportation (Lifts, Escalators)</li>
+          <li>Wet Services (Plumbing &amp; Drainage)</li>
+          <li>Water Treatment Plants &amp; Pumping Systems</li>
+        </ul>
+      </article>
 
-      <div class="service-block reveal">
-        <div class="service-img-wrap">
-          <img class="service-img" src="images/service-renewable.jpg" data-fallback="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=900&amp;q=80" alt="Renewable Energy Engineering" loading="lazy">
-          <div class="service-img-overlay"></div>
-          <div class="service-img-label">
-            <div class="service-icon-badge" style="background:var(--green)">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-            </div>
-            <span class="service-icon-label">Renewable Sustainable Technologies</span>
+      <article id="service-fire" class="service-card reveal" style="--service-accent:#C44A2A">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 003.5 0z"/></svg>
           </div>
-        </div>
-        <div class="service-content">
-          <p class="eyebrow green">Service Area 03</p>
-          <h3>Renewable Sustainable<br><em style="color:var(--green)">Technologies</em></h3>
-          <p>Comprehensive engineering services in renewable energy, energy efficiency, grid interconnections, energy storage, off-grid and backup power — to public and private clients across utility scale, industrial, commercial and agro-sectors.</p>
-          <div class="service-items">
-            <div class="service-item"><div class="service-item-dot"></div>Solar Photovoltaic (PV) System Design</div>
-            <div class="service-item"><div class="service-item-dot"></div>Grid-Tied &amp; Off-Grid Power Systems</div>
-            <div class="service-item"><div class="service-item-dot"></div>Energy Storage &amp; Backup Power</div>
-            <div class="service-item"><div class="service-item-dot"></div>Grid Interconnection Engineering</div>
-            <div class="service-item"><div class="service-item-dot"></div>Energy Efficiency Assessments</div>
-            <div class="service-item"><div class="service-item-dot"></div>Independent Solar Energy Advisory</div>
-          </div>
-        </div>
-      </div>
+          <h3>Fire Protection Engineering</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>Fire Rational Designs</li>
+          <li>Automatic Sprinkler Protection Systems</li>
+          <li>Smoke Extract and Pressurisation Systems</li>
+          <li>Gaseous Suppression Systems</li>
+          <li>Automatic Smoke Detection Systems</li>
+          <li>Voice Evacuation Systems</li>
+        </ul>
+      </article>
 
-      <div class="service-block reverse reveal">
-        <div class="service-img-wrap">
-          <img class="service-img" src="images/service-agriculture.jpg" data-fallback="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=900&amp;q=80" alt="Agriculture Engineering" loading="lazy">
-          <div class="service-img-overlay"></div>
-          <div class="service-img-label">
-            <div class="service-icon-badge" style="background:var(--green2)">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M12 22V12m0 0C12 7 7 4 2 4c0 5 3 8 10 8zM12 12c0-5 5-8 10-8 0 5-3 8-10 8"/></svg>
-            </div>
-            <span class="service-icon-label">Agriculture Engineering</span>
+      <article id="service-electronic" class="service-card reveal" style="--service-accent:var(--water)">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
-        </div>
-        <div class="service-content">
-          <p class="eyebrow green">Service Area 04</p>
-          <h3>Agriculture<br><em>Engineering</em></h3>
-          <p>Our agro-sector expertise extends to surveys, planning, design, and construction supervision for seed processing plants and associated infrastructure — vital for providing farmers with high-quality seed to enhance agricultural productivity and job creation.</p>
-          <div class="service-items">
-            <div class="service-item"><div class="service-item-dot"></div>Seed Processing Plant Design &amp; Supervision</div>
-            <div class="service-item"><div class="service-item-dot"></div>Market Analysis &amp; Strategic Recommendations</div>
-            <div class="service-item"><div class="service-item-dot"></div>Detailed Process Flow &amp; Plant Layout</div>
-            <div class="service-item"><div class="service-item-dot"></div>Land, Location &amp; Site Development</div>
-            <div class="service-item"><div class="service-item-dot"></div>Roads, Pavements &amp; Infrastructure</div>
-            <div class="service-item"><div class="service-item-dot"></div>Installation Supervision, Training &amp; Maintenance</div>
+          <h3>Electronic &amp; ICT Services</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>Fire Life &amp; Safety Systems</li>
+          <li>Security Systems &amp; Access Control</li>
+          <li>CCTV &amp; Surveillance Systems</li>
+          <li>IP Networks &amp; VoIP Systems</li>
+          <li>Audio Visual Systems</li>
+          <li>Building Management &amp; Automation</li>
+          <li>Data Centre Control Systems</li>
+        </ul>
+      </article>
+
+      <article id="service-renewable" class="service-card reveal" style="--service-accent:var(--green)">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
           </div>
-        </div>
-      </div>
+          <h3>Renewable Energy Services</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>Solar Power System Design</li>
+          <li>Wind Energy Solutions</li>
+          <li>Energy Storage Systems</li>
+          <li>Grid Integration Studies</li>
+          <li>Energy Efficiency Assessments</li>
+          <li>Sustainable Energy Consulting</li>
+        </ul>
+      </article>
+
+      <article id="service-water" class="service-card reveal" style="--service-accent:#1A7A9E">
+        <header class="service-card-head">
+          <div class="service-card-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+          </div>
+          <h3>Water &amp; Sanitation Services</h3>
+        </header>
+        <ul class="service-card-items">
+          <li>Water Treatment Plant Design</li>
+          <li>Sewage Treatment Systems</li>
+          <li>Water Distribution Networks</li>
+          <li>Stormwater Management</li>
+          <li>Groundwater Development</li>
+          <li>Sanitation Infrastructure</li>
+        </ul>
+      </article>
 
     </div>
   </div>
@@ -657,7 +656,7 @@
         <p class="eyebrow gold">Reach Out</p>
         <h2 class="contact-info-title">Let's Build<br><em style="color:var(--gold2);font-style:italic">Together</em></h2>
         <div class="section-rule left" style="margin-bottom:1.5rem"></div>
-        <p class="contact-intro">With offices strategically located across Zimbabwe and Namibia in areas earmarked for development, ZCE is positioned to deliver engineering excellence throughout Southern Africa.</p>
+        <p class="contact-intro">With offices in Harare and Bulawayo, ZCE is positioned to deliver engineering excellence throughout Southern Africa.</p>
 
         <div class="offices">
           <div class="office">
@@ -666,12 +665,11 @@
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
               </div>
               <div>
-                <div class="office-city">Harare, Zimbabwe</div>
-                <div class="office-flag">Main Office</div>
+                <div class="office-city">Harare Office</div>
               </div>
             </div>
             <div class="office-details">
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Travel Plaza, 29 Mazoe Street, Ubi Clinic Building, 1st Floor, Left Wing, Cnr Mazoe Street &amp; J. Chinamano Ave., Harare</div>
+              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>10 Working Drive, Mount Pleasant, Harare</div>
               <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.12 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>+263 772 889 943 / 783 896 005</div>
               <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:tatendac.zce@gmail.com">tatendac.zce@gmail.com</a> · <a href="mailto:abelm.zce@gmail.com">abelm.zce@gmail.com</a></div>
             </div>
@@ -683,47 +681,13 @@
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
               </div>
               <div>
-                <div class="office-city">Bulawayo, Zimbabwe</div>
-                <div class="office-flag">Regional Office</div>
+                <div class="office-city">Bulawayo Office</div>
               </div>
             </div>
             <div class="office-details">
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>5 Luton Street, Belmont, Bulawayo</div>
+              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Plot 290, Jaywick Road, Hillside, Bulawayo</div>
+              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.12 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>+263 783 896 005</div>
               <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:lovejoyn.zce@gmail.com">lovejoyn.zce@gmail.com</a></div>
-            </div>
-          </div>
-
-          <div class="office">
-            <div class="office-head">
-              <div class="office-head-icon" style="background:rgba(196,151,58,0.15);color:var(--gold)">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
-              </div>
-              <div>
-                <div class="office-city">Windhoek, Namibia</div>
-                <div class="office-flag">Head Office — Namibia</div>
-              </div>
-            </div>
-            <div class="office-details">
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Tre Office Suites, Office 18, Grimm Street, Windhoek CBD · P.O. Box 91556, Klein Windhoek</div>
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.12 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>+264 81 454 1831 / 814 0922</div>
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@zambezice.com.na">info@zambezice.com.na</a></div>
-            </div>
-          </div>
-
-          <div class="office">
-            <div class="office-head">
-              <div class="office-head-icon" style="background:rgba(196,151,58,0.15);color:var(--gold)">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
-              </div>
-              <div>
-                <div class="office-city">Katima Mulilo, Namibia</div>
-                <div class="office-flag">Regional Office</div>
-              </div>
-            </div>
-            <div class="office-details">
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Mavuluma Ext 2, Old NHE, Kwena St., Katima Mulilo · P.O. Box 1172, Ngweze</div>
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.12 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>+264 81 454 1831 / 814 0922</div>
-              <div class="office-detail-row"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@zambezice.com.na">info@zambezice.com.na</a></div>
             </div>
           </div>
         </div>
@@ -756,11 +720,12 @@
               <label for="service">Service of Interest</label>
               <select id="service" name="service">
                 <option value="">— Select a service area —</option>
-                <option>Water Supply &amp; Sanitation</option>
-                <option>Sustainable Urban Development</option>
-                <option>Renewable Sustainable Technologies</option>
-                <option>Agriculture Engineering</option>
-                <option>Project Management</option>
+                <option>Electrical Services</option>
+                <option>Mechanical Services</option>
+                <option>Fire Protection Engineering</option>
+                <option>Electronic &amp; ICT Services</option>
+                <option>Renewable Energy Services</option>
+                <option>Water &amp; Sanitation Services</option>
                 <option>Other / General Enquiry</option>
               </select>
             </div>
@@ -810,11 +775,12 @@
       <div>
         <div class="footer-col-title">Services</div>
         <div class="footer-services">
-          <a href="#services">Water Supply &amp; Sanitation</a>
-          <a href="#services">Sustainable Urban Development</a>
-          <a href="#services">Renewable Technologies</a>
-          <a href="#services">Agriculture Engineering</a>
-          <a href="#services">Project Management</a>
+          <a href="#service-electrical">Electrical Services</a>
+          <a href="#service-mechanical">Mechanical Services</a>
+          <a href="#service-fire">Fire Protection</a>
+          <a href="#service-electronic">Electronic &amp; ICT</a>
+          <a href="#service-renewable">Renewable Energy</a>
+          <a href="#service-water">Water &amp; Sanitation</a>
         </div>
       </div>
     </div>

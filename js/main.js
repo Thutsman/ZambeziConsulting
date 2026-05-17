@@ -3,6 +3,34 @@ const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 const navLinks = document.querySelectorAll('.nav-links a, .nav-mobile a');
 const hero = document.querySelector('.hero');
+const heroBg = document.getElementById('heroBg');
+
+function initHero() {
+  if (!hero) return;
+  requestAnimationFrame(() => hero.classList.add('is-mounted'));
+
+  if (!heroBg || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  let parallaxTicking = false;
+  const onParallax = () => {
+    if (parallaxTicking) return;
+    parallaxTicking = true;
+    requestAnimationFrame(() => {
+      const rect = hero.getBoundingClientRect();
+      if (rect.bottom > 0 && rect.top < window.innerHeight) {
+        const progress = Math.min(1, Math.max(0, -rect.top / (rect.height * 0.85)));
+        const y = progress * 28;
+        const scale = 1.04 + progress * 0.02;
+        heroBg.style.transform = `scale(${scale}) translate3d(0, ${y}px, 0)`;
+      }
+      parallaxTicking = false;
+    });
+  };
+  window.addEventListener('scroll', onParallax, { passive: true });
+  onParallax();
+}
+
+initHero();
 
 function updateNavbar() {
   const navH = navbar.offsetHeight;

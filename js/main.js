@@ -39,7 +39,7 @@ function updateNavbar() {
   const scrolled = window.scrollY > 72 || !heroAtTop;
   navbar.classList.toggle('scrolled', scrolled);
 
-  const sections = ['home', 'about', 'services', 'portfolio', 'contact'];
+  const sections = ['home', 'about', 'services', 'team', 'portfolio', 'contact'];
   let current = 'home';
   for (const id of sections) {
     const el = document.getElementById(id);

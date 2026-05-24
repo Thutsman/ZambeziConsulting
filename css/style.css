@@ -322,7 +322,7 @@ section.page-top { padding-top: calc(5.5rem + var(--nav-h)); }
 .about-img-badge-text { font-family: 'DM Sans', sans-serif; }
 .about-img-badge-text strong { display: block; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; color: var(--gold2); font-weight: 700; line-height: 1; }
 .about-img-badge-text span { font-size: 0.72rem; color: rgba(255,255,255,0.6); letter-spacing: 0.06em; }
-.about-pillars { display: grid; gap: 1rem; }
+.about-pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem; }
 .about-pillar { display: flex; gap: 1rem; align-items: flex-start; padding: 1.3rem; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; transition: all var(--transition); }
 .about-pillar:hover { border-color: var(--green); box-shadow: 0 8px 32px rgba(42,110,56,0.1); transform: translateX(4px); }
 .about-pillar-icon { width: 44px; height: 44px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
@@ -532,6 +532,7 @@ footer { background: #060E24; padding: 3.5rem 0 1.5rem; }
   :root { --nav-h: 80px; }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid, .service-block, .contact-grid, .footer-top, .team-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .about-pillars { grid-template-columns: 1fr; }
   .service-block.reverse { direction: ltr; }
   .hero-content { max-width: 100%; }
   .hero-title { max-width: 100%; }

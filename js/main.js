@@ -1,7 +1,6 @@
 const navbar = document.getElementById('navbar');
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
-const navLinks = document.querySelectorAll('.nav-links a, .nav-mobile a');
 const hero = document.querySelector('.hero');
 const heroBg = document.getElementById('heroBg');
 
@@ -33,34 +32,19 @@ function initHero() {
 initHero();
 
 function updateNavbar() {
-  const navH = navbar.offsetHeight;
-  const heroRect = hero?.getBoundingClientRect();
-  const heroAtTop = heroRect && heroRect.top <= 0 && heroRect.bottom > navH + 48;
-  const scrolled = window.scrollY > 72 || !heroAtTop;
+  const scrolled = window.scrollY > 72 || !hero;
   navbar.classList.toggle('scrolled', scrolled);
 
-  const sections = ['home', 'about', 'services', 'team', 'portfolio', 'contact'];
-  let current = 'home';
-  for (const id of sections) {
-    const el = document.getElementById(id);
-    if (el && window.scrollY >= el.offsetTop - 130) current = id;
-  }
-  navLinks.forEach((a) => {
-    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  const page = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-links a, .nav-mobile a').forEach((a) => {
+    const href = a.getAttribute('href');
+    a.classList.toggle('active', href === page || (page === '' && href === 'index.html'));
   });
 }
 
 window.addEventListener('scroll', updateNavbar, { passive: true });
 window.addEventListener('resize', updateNavbar);
 updateNavbar();
-
-if (hero) {
-  const heroObserver = new IntersectionObserver(
-    () => updateNavbar(),
-    { threshold: [0, 0.01, 0.5, 1], rootMargin: `-${navbar.offsetHeight}px 0px 0px 0px` }
-  );
-  heroObserver.observe(hero);
-}
 
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');
@@ -83,14 +67,6 @@ const revealObs = new IntersectionObserver(
   { threshold: 0.12 }
 );
 revealEls.forEach((el) => revealObs.observe(el));
-
-document.querySelectorAll('a[href^="#"]').forEach((a) => {
-  a.addEventListener('click', (e) => {
-    e.preventDefault();
-    const target = document.querySelector(a.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth' });
-  });
-});
 
 document.querySelectorAll('img[data-fallback]').forEach((img) => {
   img.addEventListener('error', function onError() {

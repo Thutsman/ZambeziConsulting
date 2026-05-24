@@ -158,8 +158,13 @@ a { text-decoration: none; color: inherit; }
 .hero .container { position: relative; z-index: 3; width: 100%; }
 .hero-content {
   position: relative; z-index: 1;
-  padding: 0 0 clamp(2.5rem, 5vh, 4rem);
+  padding: 2rem 2.5rem clamp(2rem, 4vh, 3rem);
   max-width: 52rem;
+  background: rgba(5,15,45,0.55);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 24px;
 }
 .hero-title {
   font-size: clamp(2.65rem, 4.8vw + 0.5rem, 4.25rem);
